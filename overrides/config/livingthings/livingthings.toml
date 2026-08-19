@@ -1,0 +1,360 @@
+
+#General Configuration
+[General]
+	#chance in % for each block to drop a banana
+	#Range: 0.0 ~ 100.0
+	BananaDropChance = 45.0
+	#wether or not bananas should drop
+	DoBananaDrops = true
+	#if set to true no modspecific mobs will attack, overrides the canAttack of every mob
+	AmbientMode = false
+
+#Mob-Config for Elephant
+[Elephant]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 5
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 7.0
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 60.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.25
+
+#Mob-Config for Giraffe
+[Giraffe]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 5
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 4.0
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 30.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.3
+
+	#the values are considered as weighted-random
+	[Giraffe.ColorVariantWeights]
+		Color2Weight = 50
+		Color1Weight = 50
+		AlbinoWeight = 1
+
+#Mob-Config for Lion
+[Lion]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 4
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 5.0
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 20.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.33
+
+	#the values are considered as weighted-random
+	[Lion.ColorVariantWeights]
+		Color1Weight = 99
+		AlbinoWeight = 1
+
+	#the values are considered as weighted-random
+	[Lion.GenderWeights]
+		GenderFemaleWeight = 50
+		GenderMaleWeight = 50
+
+#Mob-Config for Shark
+[Shark]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 3
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 6.0
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 22.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 1.05
+
+#Mob-Config for Penguin
+[Penguin]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 6
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 10.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.25
+
+#Mob-Config for Flamingo
+[Flamingo]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 6
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 10.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.25
+
+#Mob-Config for Ostrich
+[Ostrich]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 5
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 20.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.25
+	CanBeRidden = true
+
+#Mob-Config for Crab
+[Crab]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 8
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 1.0
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 8.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.2
+
+	#the values are considered as weighted-random
+	[Crab.ColorVariantWeights]
+		Color2Weight = 50
+		Color1Weight = 50
+		AlbinoWeight = 1
+
+	#the values are considered as weighted-random
+	[Crab.ScalingWeights]
+		Scaling1Weight = 30
+		Scaling3Weight = 25
+		Scaling4Weight = 15
+		Scaling2Weight = 30
+
+#Mob-Config for Mantaray
+[Mantaray]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 5
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 10.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 1.0
+
+	#the values are considered as weighted-random
+	[Mantaray.ColorVariantWeights]
+		Color2Weight = 50
+		Color1Weight = 50
+
+	#the values are considered as weighted-random
+	[Mantaray.ScalingWeights]
+		Scaling1Weight = 25
+		Scaling3Weight = 25
+		Scaling4Weight = 25
+		Scaling2Weight = 25
+
+#Mob-Config for Raccoon
+[Raccoon]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 6
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 2.0
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 10.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.23
+
+#Mob-Config for Owl
+[Owl]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 6
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 10.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	FlyingSpeed = 0.5
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.25
+
+	#the values are considered as weighted-random
+	[Owl.ColorVariantWeights]
+		colorWhiteWeight = 33
+		colorBrownWeight = 33
+		colorBlackWeight = 33
+
+#Mob-Config for AncientBlaze
+[AncientBlaze]
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 6.0
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 250.0
+	#chance for the attack to be a large fireball | requires Client and Server restart
+	#Range: 0 ~ 100
+	LargeFireballChance = 20
+	#time in ticks, until the entity can be damaged | requires Client and Server restart
+	#Range: 10 ~ 32767
+	InvulnerableTime = 200
+	#amount of blazes spawned on death | requires Client and Server restart
+	#Range: 0 ~ 16
+	BlazeSpawnCount = 4
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.25
+	#wether or not the entity shall despawn when peaceful is turned on
+	PeacefulDespawn = true
+	#wether or not the entity shall spawn when conditions are met
+	CanSpawn = true
+	#max amount of large fireballs to shoot | requires Client and Server restart
+	#Range: 0 ~ 10
+	LargeFireballCount = 6
+
+#Mob-Config for Koala
+[Koala]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 5
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 10.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.17
+
+#Mob-Config for Snail
+[Snail]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 6
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 4.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.1
+
+#Mob-Config for Monkey
+[Monkey]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 7
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 3.0
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 6.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.23
+
+#Mob-Config for NetherKnight
+[NetherKnight]
+	#requires Client and Server restart | All names listed in here are possible names for the axe of the NetherKnight
+	AxeNames = ["Demonic Soul Collector"]
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	AttackDamage = 10.0
+	CanAttack = true
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 60.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.26
+	#requires Client and Server restart | All names listed in here are possible names for the sword of the NetherKnight
+	SwordNames = ["Edge of Suffering", "Dragon's Curse", "The Soul Harvester"]
+
+	#Options for spawning in the nether fortress
+	[NetherKnight.Spawning]
+		#requires Client and Server restart | maximum size of the spawn group
+		#Range: 1 ~ 32767
+		MaxSpawnCount = 2
+		#requires Client and Server restart | spawnweight compared to other mobs
+		#Range: 1 ~ 32767
+		SpawnWeight = 18
+		#requires Client and Server restart | minimum size of the spawn group
+		#Range: 1 ~ 32767
+		MinSpawnCount = 1
+
+#Mob-Config for Shroomie
+[Shroomie]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 5
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 10.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.2
+
+	#the values are considered as weighted-random
+	[Shroomie.ColorVariantWeights]
+		#Range: > 0
+		BrownWeight = 50
+		#Range: > 0
+		RedWeight = 50
+
+#Mob-Config for Seahorse
+[Seahorse]
+	#requires Client and Server restart
+	#Range: 1 ~ 15
+	MaxSpawnedInChunk = 6
+	#requires Client and Server restart
+	#Range: 1.0 ~ 32767.0
+	Health = 4.0
+	#requires Client and Server restart | be careful, even small changes can have a high impact
+	#Range: 0.05 ~ 10.0
+	MovementSpeed = 0.2
+
+	#the values are considered as weighted-random
+	[Seahorse.ColorVariantWeights]
+		#Range: > 0
+		ColorGreenWeight = 20
+		#Range: > 0
+		ColorYellowWeight = 20
+		#Range: > 0
+		ColorRedWeight = 20
+		#Range: > 0
+		ColorPurpleWeight = 20
+		#Range: > 0
+		ColorBlueWeight = 20
+
