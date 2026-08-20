@@ -1,7 +1,7 @@
 {
     "name":  "Cubeland",
     "author":  "Axel",
-    "version":  "1.0.0",
+    "version":  "1.0.1",
     "description":  "Modpack officiel du serveur Cubeland - Forge 1.19.2",
     "fileApi":  "https://pack.cubeland.fr",
     "files":  [
@@ -44,6 +44,10 @@
                   {
                       "path":  "mods/atmospheric-1.19.2-5.1.2.jar",
                       "hash":  "6774afcb0071f3377f659e99c3e2490de5ed53f9"
+                  },
+                  {
+                      "path":  "mods/automodpack-mc1.19.2-forge-4.0.6.jar",
+                      "hash":  "510b6021e7e4ad20546d37e9ca58b72445be14e0"
                   },
                   {
                       "path":  "mods/balm-forge-1.19.2-4.6.0.jar",
