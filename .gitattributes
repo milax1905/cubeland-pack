@@ -1,0 +1,4 @@
+# Le pack est distribue octet pour octet : les empreintes SHA-1 du manifeste
+# sont calculees sur les fichiers d'origine. Toute conversion de fins de ligne
+# par git casserait la verification d'integrite cote joueur.
+* -text
